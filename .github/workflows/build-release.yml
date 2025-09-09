@@ -18,7 +18,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - arch: x86_64
+          - arch: mipsel_24kc
             sdk_url_path: https://downloads.openwrt.org/releases/24.10.2/targets/ramips/mt7621
             sdk_name: -sdk-24.10.2-ramips-mt7621_
 
